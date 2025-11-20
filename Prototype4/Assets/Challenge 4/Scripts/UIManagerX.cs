@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEngine.Networking;
-using UnityEngine.SocialPlatforms.Impl;
+
 public class UIManagerX : MonoBehaviour
 {
 
@@ -25,7 +24,7 @@ public class UIManagerX : MonoBehaviour
 
         if (controller == null)
         {
-            controller = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+            controller = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControllerX>();
 
         }
 
@@ -37,7 +36,7 @@ public class UIManagerX : MonoBehaviour
     {
         if (!controller.gameOver)
         {
-            waveScore.text = "Wave: " + spawnManager.waveNumber;
+            waveScore.text = "Wave: " + spawnManager.waveCount;
         }
 
         if (controller.gameOver && !won)
@@ -45,7 +44,7 @@ public class UIManagerX : MonoBehaviour
             waveScore.text = "You Lose!" + "\n" + "Press R to Try Again!";
         }
 
-        if (spawnManager.waveNumber >= 10)
+        if (spawnManager.waveCount >= 10)
         {
             controller.gameOver = true;
             won = true;
