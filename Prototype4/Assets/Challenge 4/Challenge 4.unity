@@ -551,6 +551,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7852611339748163153}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &583048344 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7852611340305965769, guid: 00be298b34bca5042ac7a85e4a21f640,
+    type: 3}
+  m_PrefabInstance: {fileID: 7852611339748163153}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583048338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5036a60f22d8542ca830e4578804462b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &680832294
 GameObject:
   m_ObjectHideFlags: 0
@@ -1551,6 +1563,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d03e700e368e6f42825a76d05976e2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 583048344}
+  spawnManager: {fileID: 221162289}
+  waveScore: {fileID: 843553288}
+  won: 0
 --- !u!4 &1976170783
 Transform:
   m_ObjectHideFlags: 0
