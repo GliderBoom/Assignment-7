@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Ademir Aviles
+* UIManager
+* Assignment 7
+* manages ui
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

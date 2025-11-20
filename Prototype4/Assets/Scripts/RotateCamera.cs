@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Ademir Aviles
+* RotateCamera
+* Assignment 7
+* camera movement
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

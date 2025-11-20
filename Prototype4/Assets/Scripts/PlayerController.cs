@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Ademir Aviles
+* PlayerController
+* Assignment 7
+* player controller
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Ademir Aviles
+* SpawnManager
+* Assignment 7
+* spawns the enemies and waves
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

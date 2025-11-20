@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Ademir Aviles
+* EnemyAI
+* Assignment 7
+* enemies ai
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
